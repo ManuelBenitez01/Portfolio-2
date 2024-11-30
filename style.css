@@ -10,6 +10,7 @@ body{
  
 }
 header{
+    margin-bottom: 10rem;
     font-size: 15px;
     display: flex;
     flex-direction: column;
@@ -30,6 +31,9 @@ article{
 article *{
     width: 100%;
 
+}
+.hola{
+    
 }
 .button{
     width: 35px;
