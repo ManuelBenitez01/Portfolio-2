@@ -21,6 +21,11 @@ header *{
    width: 100%;
     
 }
+.hola{
+    font-size: 0.85rem;
+    font-weight: bold;
+    opacity: .65;
+}
 article{
     display: flex;
     flex-direction: column;
@@ -32,9 +37,18 @@ article *{
     width: 100%;
 
 }
-.hola{
-    
+.minombre{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
+.futuro{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.hola1{
+    opacity: .65;
+    margin-bottom: 1rem;
+}   
 .button{
     width: 35px;
     height: auto;
