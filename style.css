@@ -55,7 +55,7 @@ article *{width: 100%;}
 }
 
     
-section *{
+section *{ margin-bottom: 5rem;
     
 }
 section{
@@ -162,3 +162,4 @@ footer{
     background-color: black;
     margin-bottom: 5rem;
 }
+.marginsection{ margin-bottom: 5rem;}
