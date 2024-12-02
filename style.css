@@ -7,19 +7,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
+    background-color: rgb(175, 172, 172);
  
 }
-header{
-    margin-bottom: 10rem;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-inline: 20%;
-}
-header *{
-   width: 100%;
-    
+
+header { 
+    padding-top: 1rem;
 }
 .hola{
     font-size: 0.85rem;
@@ -27,47 +20,75 @@ header *{
     opacity: .65;
 }
 article{
-   
-    padding-inline: 20%;
+   max-width: fit-content;
+    padding-inline: 30%;
 
 }
-article *{
-    width: 100%;
-
-}
+article *{width: 100%;}
 .minombre{
+    padding-bottom: 0,5rem;
+    grid-column: 1;
     font-size: 3rem;
-    margin-bottom: 0.5rem;
 }
 .futuro{
+    grid-column: 1;
     font-size: 1rem;
     margin-bottom: 1rem;
 }
 .hola1{
+    grid-column: 1;
     opacity: .65;
     margin-block: 1rem 1.5rem;
     max-width: 60%;
 }   
 .button{
+    max-width: fit-content;
     width: 35px;
     height: auto;
+    background-color: #00dfd8;
 }
+.button1{
+    max-width: fit-content;
+    width: 35px;
+    height: auto;
+    background-color: #00dfd8;
+}
+
+    
 section *{
-    width: 100%;
     
 }
 section{
-    display:flex ;
-    flex-direction: column;
-    padding-inline: 20%;
+    display: inline;
+    max-width: fit-content;
+    background-color: #00dfd8;
 }
-.trabajos{
-   
+.alo{display: grid;
+    grid-template-columns: 1rf 2rf 2;
+    justify-content: space-evenly;
+    padding-inline: 30%;
 }
-.project{
-  width: 15rem;
-  align-items: center;
+.segundotitulo{
+    padding-top: 2rem;
+    text-align: center;
 }
+.project1{
+    grid-column: 1;
+   max-width: 50%;
+    width: 15rem;
+}
+.project2{
+    border: solid;
+    border-radius: 1rem;
+    grid-column: 2;
+    max-width: 50%;
+    width: 15rem;
+  }
+  section .img {
+    width: 10rem ;
+    border-radius: 5rem;
+    border: solid;
+  }
 
 footer *{
     width: 100%;
@@ -77,4 +98,67 @@ footer{
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+.centrar{
+    padding-left: 30%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+.abajo{
+    padding-top: 20%;
+}
+.loeader::after {
+    grid-column: 1;
+    background: #ccc;
+    background: linear-gradient(90deg, rgb(13, 13, 240) , #00dfd8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    opacity: 0.65;
+    content: "" ;
+    font-weight: 600;
+    font-size: 50px;
+    color: rgb(152, 163, 172);
+    animation-name: animatingtext;
+    animation-duration: 1200ms;
+    animation-iteration-count: infinite;
+}
+@keyframes animatingtext {
+    0%   {content: "W";}
+    5%  {content: "We";}
+    15%  {content: "Web";}
+    25%  {content: "Web D";}
+    35%  {content: "Web De";}
+    45%  {content: "Web Dev";}
+    55%  {content: "Web Deve";}
+    65%  {content: "Web Devel";}
+    75%  {content: "Web Develo";}
+    85%  {content: "Web Develop";}
+    95% {content: "Web Develope";}
+    100% {content: "Web Developer";}
+}
+.lugar *{
+}
+.lugar{
+    
+    max-width: fit-content;
+    background-image: repeating-linear-gradient(90deg , rgb(255, 255, 255),#00dfd8);
+    backdrop-filter: blur(100px);
+    border: solid;
+    border-radius: 1rem;
+
+}
+.imagen{
+    grid-column: 2;
+    width: 30%;
+    height: auto;
+    border: rgb(49, 49, 49);
+    border: solid;
+    border-radius: 80%;
+    
+}
+.redes{
+    max-width: fit-content;
+    background-color: black;
+    margin-bottom: 5rem;
 }
