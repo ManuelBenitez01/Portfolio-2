@@ -10,6 +10,7 @@
 body{
     background-image: url(images/fondo1.jpg);
     background-size: 100%;
+    background-repeat: repeat-y;
     
 }
 
@@ -197,20 +198,47 @@ footer{
                 0px 0px 20px rgb(141, 141, 141),
                 0px 0px 30px rgb(44, 44, 44);
     font-size: 50px;
+    margin-bottom: 2rem;
 }
 .utn{
-    
-    width: 15rem;
-    height: auto;
-    
-   
+    width: 20rem;
+    height: auto;   
 }
 .study{
     flex-direction: column;
     display: flex;
     align-items: center;
-    margin-block: 10rem;
+    margin-block: 5rem;
 }
 .utn1{
  
+}
+.divlogos{
+    align-content: center;
+    padding-inline: 30%;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5rem;
+    column-gap: 5rem;
+    display: grid;
+    margin-bottom: 5rem;
+}
+.logos{
+    max-width: fit-content;
+    width: 70px;
+    height: auto;
+    grid: 1;
+}
+.logos:hover {
+    scale: 1.5;
+}
+.tercertitulo{
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 4rem;
+    color: rgb(77, 76, 76);
+    text-shadow:0px 0px 10px cyan,
+                0px 0px 20px rgb(141, 141, 141),
+                0px 0px 30px rgb(44, 44, 44);
+    font-size: 50px;
 }
