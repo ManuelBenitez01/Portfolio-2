@@ -28,7 +28,6 @@ let c = true; // BOOLEANO = BINARIO // TRUE = 1 // FALSE = 0
 // alert(a + (a + b) + c); // 10 + (10 + "5") + 1 // 10105true
 // alert(a + (a + c) + b); // 10 + (10 + 1) + "5" // 215
 // alert(a % b);
-
 // let camelCase; // BUENA PRÁCTICA
 // let PascalCase;
 // let snake_case;
